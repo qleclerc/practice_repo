@@ -4,3 +4,5 @@
 data = rnorm(1000)
 
 plot(data, type = "p", pch = 19, col = "red")
+
+hist(data)
