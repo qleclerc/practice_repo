@@ -1,5 +1,6 @@
 
 # Source this awesome script to do clever data science!
+if(!require(here)) install.packages("here")
 
 user_name = readline("Hello there! Please type your username and press Enter: ")
 
