@@ -1,7 +1,7 @@
 
 # Source this awesome script to do clever data science!
 if(!require(here)) install.packages("here")
-cat("Adding a new line at the TOP\n\n")
+cat("Adding a new LINE at the TOP\n\n")
 user_name = readline("Hello there! Please type your username and press Enter: ")
 
 fav_num = sample(10:100, 1)
