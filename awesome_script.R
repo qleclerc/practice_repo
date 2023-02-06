@@ -1,7 +1,6 @@
 
 # Source this awesome script to do clever data science!
 if(!require(here)) install.packages("here")
-cat("Adding a new LINE at the TOP\n\n")
 user_name = readline("Hello there! Please type your username and press Enter: ")
 
 fav_num = sample(10:100, 1)
@@ -22,5 +21,3 @@ hist(data, main = paste0("A beautiful graph for ", user_name))
 dev.off()
 
 cat("\n\nDone! Don't forget to commit the changes ;)")
-
-cat("Adding a line at the bottom\n")
