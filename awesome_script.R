@@ -22,3 +22,5 @@ hist(data, main = paste0("A beautiful graph for ", user_name))
 dev.off()
 
 cat("\n\nDone! Don't forget to commit the changes ;)")
+
+cat("Adding a line at the bottom\n")
